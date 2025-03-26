@@ -1,0 +1,12 @@
+import numpy as np
+arr1 = np.array([10,20,30])
+arr2 = np.array(["Raghad","Rashid","Walid"])
+arr4 = np.array(20,dtype=np.float32)
+print(arr4,arr4.ndim,arr4.shape,arr4.dtype,type(arr4))
+arr5= np.ones((3,5))
+arr6= np.zeros((3,5))
+arr7= np.full((3,5),10)
+arr8= np.eye(5) #np.eye(5,7)
+arr9= np.arange(1,5,0.5) 
+#print(range(1,5,0.5)) # raise an error 
+print(arr5,arr6,arr7,arr8,arr9,sep="\n")

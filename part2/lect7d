@@ -1,0 +1,5 @@
+import numpy as np
+arr1 = np.array([10,20,30,40,50,60],dtype=np.int32) # 'i' int
+arr2 = arr1.astype(np.float32)
+arr3 = arr1.astype(np.bool) # 'b'
+print(arr2,arr3)
