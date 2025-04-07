@@ -1,0 +1,12 @@
+import numpy as np
+from numpy import random
+
+print(random.randint(100,200))
+print(random.randint(low=100,high=200))
+print(random.rand()*100+100)
+
+print(random.randint(low=100,high=200,size=5))
+print(random.randint(low=100,high=200,size=(5,5)))
+
+print(random.randint(low=0,high=5,size=(7,3)))
+

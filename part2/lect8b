@@ -1,0 +1,7 @@
+import numpy as np
+arr1 = np.array([100,200,30,40,50,60])
+arr1_f1= [True,False,False,True,True,False]
+print(arr1[arr1_f1])
+arr1_f2= arr1>50 #[True, True,False,False,False,True]
+print(arr1[arr1_f2])
+print(arr1[arr1>=60])
