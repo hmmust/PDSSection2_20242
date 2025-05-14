@@ -6,7 +6,8 @@ Students= [ {'name':'Ali',"Age":20,'Major':'DSAI',
            {'name':'Abedraheem',"Age":21,'Major':'DSAI',
             'Married':True,'NoOfChildren':0}
           ]
-print(type(json.dumps(ali))) # string
-print(json.dumps(Students)) # string
-json_string = '{"name":"Ali", "age":25,"married":true}'
-print(type(json.loads(json_string)))
+file1 = open("./part5/students.json",mode='w')
+json.dump(Students,file1)
+file1.close()
+with open("./part5/students.json",mode='w') as file1:
+      json.dump(Students,file1)
